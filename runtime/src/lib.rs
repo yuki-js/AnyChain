@@ -12,8 +12,12 @@ use sp_std::prelude::*;
 use sp_core::OpaqueMetadata;
 use sp_runtime::{
 	ApplyExtrinsicResult, transaction_validity::TransactionValidity, generic, create_runtime_str,
-	impl_opaque_keys, MultiSignature,
+	impl_opaque_keys,
 };
+
+mod signature;
+use signature::MultiSignature;
+
 use sp_runtime::traits::{
 	BlakeTwo256, Block as BlockT, IdentityLookup, Verify, ConvertInto, IdentifyAccount
 };

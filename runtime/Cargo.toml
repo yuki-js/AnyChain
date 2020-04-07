@@ -7,6 +7,10 @@ name = 'node-template-runtime'
 repository = 'https://github.com/paritytech/substrate/'
 version = '2.0.0-alpha.5'
 
+[dependencies.hex]
+version = "0.4"
+default-features = false
+
 [dependencies.aura]
 default-features = false
 package = 'pallet-aura'

@@ -2669,6 +2669,7 @@ dependencies = [
  "frame-executive",
  "frame-support",
  "frame-system",
+ "hex",
  "pallet-aura",
  "pallet-balances",
  "pallet-grandpa",
